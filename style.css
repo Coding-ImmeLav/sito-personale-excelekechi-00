@@ -32,6 +32,17 @@
 }
 
 footer {
-    background-color: blue;
+    background-color: rgb(33, 244, 230);
     padding: 5vh;
 }
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
+}
+.card-header, .card-footer{
+  background-color: transparent;
+} 
